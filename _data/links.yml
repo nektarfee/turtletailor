@@ -1,0 +1,32 @@
+- name: Handmade Ideas
+  image: /assets/images/link_01.png
+  link: https://www.youtube.com/channel/UC8FGhonNZSxecSzSYSC1sXA
+  description: Eine meiner liebsten Youtuberinnen aus Indien.
+- name: Don Kim
+  link: https://www.youtube.com/channel/UCR5AeFU5QNzlw2Vi9irJ_kQ
+  image: /assets/images/link_02.png
+  description: Der Youtube-Channel von Don Kim. Tolles Upcycling und meisterhaftes Patchwork!
+- name: MyDIYlife
+  link: https://www.youtube.com/c/MyDIYlife
+  image: /assets/images/link_03.png
+  description: Was finde ich denn so toll daran?
+- name: Tailor noir
+  link: https://www.youtube.com/channel/UCYg5894ho3LF5sX0OGM8N_w
+  image: /assets/images/link_04.png
+  description: Klassiker neu interpretiert.
+- name: Benden Size
+  link: https://www.youtube.com/c/BendenSize%C3%96rg%C3%BCEviNewgameyeni%C3%B6rg%C3%BCmodelleri
+  image: /assets/images/link_05.png
+  description: Youtube-Channel von Benden Size
+- name:  Melek Çepni Koç
+  link: https://www.youtube.com/c/Melek%C3%87epniKo%C3%A7
+  image: /assets/images/link_06.png
+  description: Youtube-Channel von  Melek Çepni Koç
+- name:  SIMPLE Cutting
+  link: https://www.youtube.com/c/SIMPLECutting
+  image: /assets/images/link_07.png
+  description: Youtube-Channel von SIMPLE-Cutting. Eine meiner Liebsten!
+- name:  Zengin Hayaller Dükkanı
+  link: https://www.youtube.com/c/ZenginHayallerD%C3%BCkkan%C4%B1
+  image: /assets/images/link_08.png
+  description: Upcycling und Handarbeiten
