@@ -4,7 +4,7 @@ markdown: kramdown
 # URL of the Site
 url: 'www.turtletailor.de'
 # Base URL of the Site (i.e., Name of the Repository in which the Site is hosted)
-baseurl: 
+baseurl: turtletailor
 
 # Title of the Site
 title: Ms. Turtle Tailor
