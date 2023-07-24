@@ -10,6 +10,9 @@ baseurl:
 title: Ms. Turtle Tailor
 # Description of the Site
 description: Turtle Tailor's Blog und Portfolio
+# Separate hero title and description.
+subtitle: Upcycling Style
+hero-description: Mode, Nähen, schöne Stoffe, Handarbeiten und... viele Handtaschen!
 # URL of Image of the Site
 site-image: /assets/images/Background.png
 # Keywords of the Site
@@ -22,7 +25,7 @@ heroimage: /turtletailor/assets/images/Background.png
 
 # Social Media and Contact
 # If you don't want to use any icon, you can leave them blank.
-email: turtletailor@gmail.com
+email: info@turtletailor.de
 facebook_username: 
 twitter_username: 
 instagram_username: 
