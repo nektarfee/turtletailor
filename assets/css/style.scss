@@ -45,7 +45,7 @@ a.navbar-item.is-active {
 #hero {
 
     &::before {
-        filter: blur(0.15rem);
+#        filter: blur(0.15rem);
         background-image: url({{site.heroimage}});
         background-position: center;
         background-repeat: no-repeat;
@@ -73,7 +73,7 @@ a.navbar-item.is-active {
         margin: auto;
 
         img {
-            border: 0.25rem dotted black;
+            border: 0.25rem solid gray;
         }
     }
 
