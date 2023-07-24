@@ -2,7 +2,7 @@
 markdown: kramdown
 
 # URL of the Site
-url: ''
+url: 'www.turtletailor.de'
 # Base URL of the Site (i.e., Name of the Repository in which the Site is hosted)
 baseurl: 
 
@@ -18,10 +18,10 @@ site-image: /assets/images/Background.png
 # Keywords of the Site
 site-keywords: Mode, Fashion, Handmade, Upcycling, Handarbeiten
 # URL for the Image of custom Favicon
-favicon-url: /turtletailor/assets/images/Favicon.png
+favicon-url: /assets/images/Favicon.png
 
 # URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
-heroimage: /turtletailor/assets/images/Background.png
+heroimage: /assets/images/Background.png
 
 # Social Media and Contact
 # If you don't want to use any icon, you can leave them blank.
