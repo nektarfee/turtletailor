@@ -1,7 +1,7 @@
 ---
 title: Ms. Turtle Tailor
 layout: post
-post-image: "/turtletailor/assets/images/2022-11-07-turtle-tailor-wer-ist-das.png"
+post-image: "/assets/images/2022-11-07-turtle-tailor-wer-ist-das.png"
 description: Wieso eigentlich "Turtle Tailor" ?  Wer ist das und was hat Sie mit dem ganzen hier zu tun? 
 tags:
 - blog
