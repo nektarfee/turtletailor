@@ -7,7 +7,7 @@ url: ''
 baseurl:
 
 # Title of the Site
-title: Ms. Turtle Tailor
+title: Ms.Turtle Tailor
 # Description of the Site
 description: Turtle Tailor's Blog und Portfolio
 # Separate hero title and description.
@@ -16,16 +16,21 @@ hero-description: Mode, Nähen, schöne Stoffe, Handarbeiten und... viele Handta
 # URL of Image of the Site
 site-image: /assets/images/Background.png
 # Keywords of the Site
-site-keywords: Mode, Fashion, Handmade, Upcycling, Handarbeiten, Nähen, Handtaschen
+site-keywords: Mode, Fashion, Handmade, Upcycling, Handarbeiten, Nähen, Handtaschen, sewing, Sewing Machines
 # URL for the Image of custom Favicon
 favicon-url: /assets/images/Favicon.png
 
 # URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
-heroimage: /assets/images/Background_Studio_1920_watermark.jpg
+#heroimage: <a href="https://www.freepik.com/free-photo/sewing-machine-desk-with-piece-paper-it_41359087.htm#page=2&query=creative%20commons%20sewing&position=4&from_view=search&track=ais">Image by vecstock</a>
+#heroimage: <a href="https://www.freepik.com/free-photo/top-view-tailor-workplace-background-with-fabric_12142057.htm#page=2&query=creative%20commons%20sewing&position=14&from_view=search&track=ais">Freepik</a>
+#heroimage: <a href="https://www.freepik.com/free-photo/sewing-machine-desk-with-piece-paper-it_41359087.htm#page=2&query=creative%20commons%20sewing&position=4&from_view=search&track=ais">Image by vecstock</a> on Freepik
+#heroimage: <a href="https://www.freepik.com/free-photo/sewing-spool-tailor-cloth-vintage-background-generated-by-ai_41359096.htm#page=6&query=creative%20commons%20sewing%20wallpaper&position=7&from_view=search&track=ais">Image by vecstock</a> on Freepik
+#heroimage: /assets/images/Background_Studio_1920_watermark.jpg
+heroimage: /assets/images/sewing-machine-desk-with-piece-paper-it_1920.jpg
 
 # Social Media and Contact
 # If you don't want to use any icon, you can leave them blank.
-email: info@turtletailor.de
+email: kontakt@turtletailor.de
 facebook_username: 
 twitter_username: 
 instagram_username: 
@@ -37,7 +42,7 @@ behance_username:
 dribbble_username: 
 spotify_username: 
 etsy_username: MsTurtleTailor
-shopify_shop_url: https://shop.turtletailor.de
+shopify_shop_url: shop.turtletailor.de
 
 # Google Analytics
 google-analytics: 
@@ -50,7 +55,7 @@ author-name: Meike Lerida-Moreno
 # URL for the Image of the Author
 author-image: /assets/images/about.png
 # 60 Words About the Author
-author-about: Ich bin Meike. <br> Ich liebe es zu nähen und aus altem Plunder aufregende, neue Sachen zu gestalten. Wenn ich nicht gerade Schnittmuster bearbeite oder nähe bin ich in einem Hamburger Pflegeheim als Pflegekraft tätig. <br>Dies ist mein Blog und Portfolio. Hauptsächlich Handtaschen. Viel Spass beim Stöbern! Wenn Du Freude an irgendeinem Stück hier hast und es käuflich erwerben möchtest, dann schau doch mal in meinem<a href="https://shop.turtletailor.de" target="_blank">Online-Shop</a>vorbei!
+author-about: Ich bin Meike. <br> Ich liebe es zu nähen und aus altem Plunder aufregende, neue Sachen zu gestalten. Wenn ich nicht gerade Schnittmuster bearbeite oder nähe bin ich in einem Hamburger Pflegeheim als Pflegekraft tätig. <br>Dies ist mein Blog und Portfolio. Hauptsächlich Handtaschen. Viel Spass beim Stöbern! Wenn Du Freude an irgendeinem Stück hier hast und es käuflich erwerben möchtest, dann schau doch mal in meinem Shop vorbei!<br>Für mich ist es immer schön, wenn eine Handtasche Ihre Frau findet.
 # URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
 author-url: https://blog.turtletailor.de/#about
 
