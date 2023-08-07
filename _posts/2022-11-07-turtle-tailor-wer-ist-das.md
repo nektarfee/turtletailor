@@ -1,10 +1,24 @@
 ---
-title: Ms. Turtle Tailor
+
+title: Ms.Turtle Tailor
+
 layout: post
+
 post-image: "/assets/images/2022-11-07-turtle-tailor-wer-ist-das.png"
-description: Wieso eigentlich "Turtle Tailor" ?  Wer ist das und was hat Sie mit dem ganzen hier zu tun? 
+
+description: Wieso eigentlich "Turtle Tailor" ?  Wer ist das und was hat Sie mit dem ganzen hier zu tun?
+
+shoplink: https://shop.turtletailor.de/products/kleine-handtasche
+
+buttontext: Wenn Du mich haben möchtest, dann klicke hier
+
+sold: "3"
+
+soldbuttontext: Sold!
+
 tags:
 - blog
+
 ---
 
 [whatever comment text]::
