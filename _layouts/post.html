@@ -16,7 +16,7 @@ layout: compress
     <div class="hero-body">
       <div class="container">
         <a href="{{page.url | relative_url}}" class="has-text-black" id="title">
-          <h1 class="title has-text-centered is-2 has-text-weight-semibold ">{{page.title}}</h1>
+          <h1 class="title has-text-centered is-3 has-text-weight-semibold ">{{page.title}}</h1>
         </a>
         <hr class="has-background-black">
         <div class="columns is-variable is-5">
@@ -26,29 +26,74 @@ layout: compress
             </figure>
           </div>
           <div class="subtitle column is-5 has-text-left-desktop has-text-left-fullhd has-text-left-tablet has-text-center-mobile">
-            {% unless page.description.size == 0 %}
+          {% unless page.description.size == 0 %}
             <p id="description" class="content is-small has-text-weight-medium is-uppercase">{{page.description | strip | strip_html | strip_newlines }}</p>
-            {% endunless %}
-            <p class="subtitle is-6 is-uppercase has-text-weight-normal has-text-black-ter">Veröffentlicht am
-              <b>{{ page.date | date: "%-B %d, %Y" }}</b> von <a href="{% if site.author-url %}{{site.author-url}}{% else %}{{site.url}}{{site.baseurl}}/#about{% endif %}" target="_blank"><b class="has-text-link"><u>{{site.author-name}}</u></b>
-              </a>
+          {% endunless %}
+           {% if page.sold == "0" %}
+		<style>
+		.shoppingbutton {
+		  border: none;
+		  color: white;
+		  padding: 6px 12px;
+		  text-align: center;
+		  text-decoration: none;
+		  width: 80%;
+		  display: inline-block;
+		  font-size: 14px;
+		  margin: 5% 10% 0% 10%;
+		  cursor: pointer;
+		  border-radius: 12px;
+		  background-color: #3273DC;
+		}
+		</style>
+               <a type="button" href="{{page.shoplink}}" target="_blank" style="text-decoration: none" class="shoppingbutton">{{page.buttontext}}</a>
+              {% endif %}
+              {% if page.sold == "1" %}
+                <style>
+                .soldbutton {
+                  border: none;
+                  color: white;
+                  padding: 6px 12px;
+                  text-align: center;
+                  text-decoration: none;
+                  width: 80%;
+                  display: inline-block;
+                  font-size: 14px;
+                  margin: 5% 10% 0% 10%;
+                  cursor: pointer;
+                  border-radius: 12px;
+                  background-color: #DC1620;
+                }
+                </style>
+               <a type="button" style="text-decoration: none" class="soldbutton">{{page.soldbuttontext}}</a>
+              {% endif %}
+                 <style>
+                 .subtitle_date {
+                   text-align: center;
+                   font-size: 14px;
+                   margin: 30px;
+                 margin-left: 30px;
+                 }
+                 </style>
+           <p class="subtitle_date is-6 has-text-weight-normal has-text-black-ter">Gepostet am 
+              <b>{{ page.date | date: "%d.%B %Y" }}</b>
             </p>
             {%- assign tags = page.tags -%}
             {%- unless tags.size == 0 -%}
-            <p class="subtitle is-uppercase">
+            <p class="subtitle_date is-uppercase">
               <i class="fas fa-tags"></i>
               {% assign i = 0 %}
               {% for tags in page.tags %}
-              <span class="tag is-link">{{page.tags[i]}}</span>
+              <span class="tag is-6 is-link">{{page.tags[i]}}</span>
               {% assign i = i | plus:1 %}
               {% endfor %}
             </p>
             {%- endunless -%}
             {% assign words = content | number_of_words %}
             {%- unless content.size == 0 -%}
-            <p class="subtitle is-uppercase"><i class="fas fa-clock"></i> <b class="has-text-link">
+            <!--<p class="subtitle is-uppercase"><i class="fas fa-clock"></i> <b class="has-text-link">
                 {{ words | divided_by:180 }} min
-              </b>Lesezeit</p>
+              </b>Lesezeit</p> -->
             {%- endunless -%}
           </div>
         </div>
