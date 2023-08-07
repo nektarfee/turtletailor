@@ -18,7 +18,7 @@
                         <div class="column is-marginless">
                             <h5 class="has-text-grey-lighter">{{site.author-name}}</h5>
                             <div class="content has-text-grey">
-                                <p>{{site.author-about | truncate: 75 }}</p>
+                                <p>{{site.author-about | truncate: 103 }}</p>
                             </div>
                         </div>
                     </div>
@@ -36,7 +36,10 @@
                 {% endunless %}
                 {% endfor %}
                 <li>
-                    <a target="_blank" href="{{site.url}}{{site.baseurl}}/feed.xml">RSS-Feed abonnieren!</a>
+                    <a target="_blank" href="{{site.url}}{{site.baseurl}}/feed.xml">RSS-Feed</a>
+                </li>
+                <li>
+                    <a href="{{site.url}}{{site.baseurl}}/impressum">Impressum</a>
                 </li>
             </div>
 
@@ -52,6 +55,6 @@
         </div>
     </div>
     <div class="has-background-black has-text-centered has-text-white" id="credits">
-        <i class="far fa-copyright"></i> {{ "now" | date: "%Y" }} | <a href="https://github.com/thedevslot/WhatATheme" target="_blank" rel="noopener noreferrer">WhatATheme</a> - A Theme made with <i class="fas fa-heart has-text-danger"></i> by <a href="https://www.twitter.com/thedevslot" target="_blank" rel="noopener noreferrer">TheDevsLot</a> Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a>
+        <i class="far fa-copyright"></i> {{ "now" | date: "%Y" }} | <a href="https://github.com/thedevslot/WhatATheme" target="_blank" rel="noopener noreferrer">WhatATheme</a> - A Theme by <a href="https://www.twitter.com/thedevslot" target="_blank" rel="noopener noreferrer">TheDevsLot</a> Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a><br><a href="https://www.freepik.com/free-photo/sewing-machine-desk-with-piece-paper-it_41359087.htm#page=2&query=creative%20commons%20sewing&position=4&from_view=search&track=ais" target="_blank">Showcase-Image by vecstock</a> on Freepik | <a rel="license" href="http://creativecommons.org/licenses/by/4.0/" target="_blank"><img alt="Creative Commons License" style="border-width:0; margin-top: 3px; vertical-align:text-top;" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a>
     </div>
 </footer>
