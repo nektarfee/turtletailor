@@ -8,11 +8,18 @@
                 <i class="fab fa-facebook-messenger"></i>Ping me on Messenger
             </a>
             {% endunless %}
+            {% unless site.shopify_shop_url == %}
+            <a id="contact-button" href="https://{{site.shopify_shop_url}}"
+                class="button is-rounded is-uppercase has-text-weight-normal is-black is-outlined has-text-weight-semibold column is-two-fifths"
+                target="_blank">
+                <i class="fab fa-shopify"></i>Hier geht's zum Shop...
+            </a>
+            {% endunless %}
             {% unless site.email == %}
             <a id="contact-button" href="mailto:{{site.email}}"
                 class="button is-rounded is-uppercase has-text-weight-normal is-black is-outlined has-text-weight-semibold column is-two-fifths"
                 target="_blank">
-                <i class="fas fa-envelope"></i>Schreib mir gerne eine Mail
+                <i class="fas fa-envelope"></i>Fragen? Schreib mir gerne eine Mail!
             </a>
             {% endunless %}
             {% unless site.twitter_username == %}
@@ -28,7 +35,7 @@
             </h3>
             <div class="column is-full is-size-3">
                 {% unless site.shopify_shop_url == %}
-                <a href="{{site.shopify_shop_url}}" target="_blank" class="has-text-black"><i class="fab fa-shopify"></i></a>
+                <a href="https://{{site.shopify_shop_url}}" target="_blank" class="has-text-black"><i class="fab fa-shopify"></i></a>
                 {% endunless %}
                 {% unless site.facebook_username == %}
                 <a href="http://www.facebook.com/{{site.facebook_username}}" target="_blank" class="has-text-black"><i class="fab fa-facebook"></i></a>
