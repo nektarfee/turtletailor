@@ -21,7 +21,7 @@ tags:
 
 ---
 
-<h3 align="center"><u>Mein Shop ist ab dem 12.August 2023 eröffnet.</u></h3>
+<h3 align="center"><u>Mein Shop ist ab dem 19.August 2023 eröffnet.</u></h3>
 <br>
 Dann bringe ich endlich meine Handtaschensammlung unter die Leute. Alle bisher geposteten Taschen stehen dann dort Verkauf. **Wenn zukünftig irgendeine der veröffentlichten Arbeiten erworben werden kann, taucht oben auf ihrem Blogeintrag ein blauer Button auf:**
 <br><br>
